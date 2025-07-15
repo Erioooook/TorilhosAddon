@@ -33,7 +33,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.7'
     implementation 'com.kohlschutter.junixsocket:junixsocket-common:2.6.2'
     implementation 'com.kohlschutter.junixsocket:junixsocket-native-common:2.6.2'
-    modAnnotationProcessor "io.wispforest:owo-lib:${project.owo_version}"
+    annotationProcessor "io.wispforest:owo-lib:${project.owo_version}"
     modRuntimeOnly        "io.wispforest:owo-sentinel:${project.owo_version}"
 }
 
